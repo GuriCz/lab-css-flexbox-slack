@@ -8,3 +8,1391 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #540b51;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .logo img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .entry {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+    width: 75%;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+  }
+  header,
+  p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .yellow {
+    color: yellow;
+  }
+  .email-signup {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #540b51;
+  }
+  .google-signup {
+    margin-top: 5%;
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #4285f4;
+    text-align: center;
+  }
+
+  .google-signup span {
+    text-align: center;
+  }
+
+  .screenshot img{
+    width: 100%;
+    height: 75%;
+    margin-top: 10%;
+  }
+  .ad {
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  .ad p{
+    color: black;
+    padding-top: 30px;
+  }
+  .corps {
+    display: inline-block;
+    margin: 1% 5%;
+    align-items: center;
+  }
+  .corps img{
+    width: 20%;
+    margin: 5%;
+  }
+
+  .teamwork {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+  }
+  .teamwork img{
+    display: flex;
+    width: 90vw;
+    padding-bottom: 5%;
+  }
+
+  .teamwork h2{
+    margin: 0 3%;
+    text-align: left;
+    font-size: 200%;
+    font-weight: 800;
+  }
+  .teamwork p{
+    margin: 0 3%;
+    text-align: left;
+    color: black;
+    font-size: 110%;
+  }
+  
+  .teamwork a{
+    display: flex;
+    margin: 3% 3%;
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 800;
+  }
+  .teamworkright {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: antiquewhite;
+  }
+
+  .teamworkright  img{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    float: right;
+    padding-bottom: 5%;
+  }
+
+  .teamworkright h2{
+    margin: 0 3%;
+    text-align: left;
+    font-size: 200%;
+    font-weight: 800;
+  }
+  .teamworkright p{
+    margin: 0 3%;
+    text-align: left;
+    color: black;
+    font-size: 110%;
+  }
+  
+  .teamworkright a{
+    display: flex;
+    margin: 3% 3%;
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 800;
+  }
+
+  .usage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    padding-top: 10%;
+    background-color: white;
+  }
+  .usage h3{
+    font-size: 200%;
+    margin: 0 5%;
+  }
+
+  .usage p{
+    margin: 0 5%;
+  }
+
+  .usage button {
+    width: 350px;
+    height: 50px;
+    margin: 3%;
+  }
+
+  .purple-button {
+    background-color: #540b51;
+    color: white;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: white solid 1px;
+  }
+
+  .white-button {
+    background-color: white;
+    color: #540b51;
+    border: #540b51 solid 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .usage ul{
+    display: block;
+    list-style: none;
+    margin: 0 5%;
+  }
+
+  .percentage {
+    font-size: 45px;
+    color: #540b51;
+    font-weight: 900;
+  }
+
+  .listp {
+    text-align: center;
+  }
+  .freeOrSales {
+    background-color: #540b51;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .freeOrSales h3{
+    font-size: 250%;
+    margin: 0 10%;
+    color: white;
+  }
+
+  .freeOrSales button {
+    width: 350px;
+    height: 50px;
+    margin: 3%;
+  }
+
+  footer {
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .slack-icon2 {
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+  }
+
+  .footerlist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .footerlist ul{
+    list-style: none;
+    display: inline;
+  }
+  .footerlist li {
+    margin-top: 10%;
+  }
+
+  .top-list {
+    font-weight: bold;
+  }
+
+  footer hr{
+    width: 90%;
+  }
+  
+  .legalstuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .legalstuff ul{
+    list-style: none;
+    display: block;
+    font-weight: bold;
+  }
+
+  .legalstuff li{
+    margin-top: 5%;
+  }
+
+  .social-media-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+
+  .social-media-icons ul{
+    list-style: none;
+  }
+
+  .fineprint {
+    margin: 3%;
+    text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .logo img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .entry {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+    width: 100%;
+  }
+  header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+  }
+  header,
+  p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .yellow {
+    color: yellow;
+  }
+  .email-signup {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #540b51;
+  }
+  .google-signup {
+    margin-top: 5%;
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #4285f4;
+    text-align: center;
+  }
+
+  .google-signup span {
+    text-align: center;
+  }
+
+  .screenshot img{
+    width: 100%;
+    height: 75%;
+    margin-top: 10%;
+  }
+  .ad {
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin-top: 10%;
+  }
+
+  .ad p{
+    color: black;
+  }
+  .corps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 1% 5%;
+    align-items: center;
+
+  }
+  .corps img{
+    width:  50%;
+    margin: 5%;
+    align-items: center;
+  }
+
+  .teamwork {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+  }
+  .teamwork img{
+    display: flex;
+    width: 75%;
+    height: 600px;
+    padding-bottom: 5%;
+  }
+
+  .teamwork h2{
+    margin: 0 25%;
+    text-align: left;
+    font-size: 200%;
+    font-weight: 800;
+  }
+  .teamwork p{
+    margin: 0 25%;
+    text-align: left;
+    color: black;
+    font-size: 110%;
+  }
+  
+  .teamwork a{
+    display: flex;
+    margin: 3% 25%;
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 800;
+  }
+
+  .teamworkright {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+  }
+  .teamworkright img{
+    display: flex;
+    float: right;
+    width: 75%;
+    height: 600px;
+    padding-bottom: 5%;
+  }
+
+  .teamworkright h2{
+    margin: 0 25%;
+    text-align: left;
+    font-size: 200%;
+    font-weight: 800;
+  }
+  .teamworkright p{
+    margin: 0 25%;
+    text-align: left;
+    color: black;
+    font-size: 110%;
+  }
+  
+  .teamworkright a{
+    display: flex;
+    margin: 3% 25%;
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 800;
+  }
+  .usage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    padding-top: 10%;
+    background-color: white;
+  }
+  .usage h3{
+    font-size: 200%;
+    margin: 0 5%;
+  }
+
+  .usage p{
+    margin: 0 5%;
+  }
+
+  .purple-button {
+    background-color: #540b51;
+    color: white;
+    border: white solid 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 600px;
+    height: 50px;
+    margin: 3% 1%;
+  }
+
+  .white-button {
+    background-color: white;
+    color: #540b51;
+    border: #540b51 solid 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+    margin: 3%;
+  }
+  .decision {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .usage ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0 5%;
+  }
+
+  .percentage {
+    font-size: 45px;
+    color: #540b51;
+    font-weight: 900;
+  }
+
+  .listp {
+    text-align: center;
+  }
+
+  .freeOrSales {
+    background-color: #540b51;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .freeOrSales h3{
+    font-size: 250%;
+    margin: 0 10%;
+    color: white;
+  }
+
+  .freeOrSales button {
+    width: 350px;
+    height: 50px;
+    margin: 3%;
+  }
+
+  footer {
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .slack-icon2 {
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+  }
+
+  .footerlist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .footerlist ul{
+    list-style: none;
+    display: inline;
+  }
+  .footerlist li {
+    margin-top: 10%;
+  }
+
+  .top-list {
+    font-weight: bold;
+  }
+
+  footer hr{
+    width: 90%;
+  }
+  
+  .legalstuff {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .legalstuff ul{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+
+  .legalstuff li{
+    display: inline;
+  }
+  .social-media-icons {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+  }
+
+  .social-media-icons li{
+    list-style: none;
+    margin-left: 5%;
+  }
+
+  .fineprint {
+    margin: 3%;
+    text-align: left;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  nav {
+    display: flex;
+    align-items: center;
+    margin: 1% 1%;
+  }
+
+  .logo-list {
+    margin-left: 10%;
+    gap:  10%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul, a{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  li{
+    margin-right: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .logo img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .entry {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+    width: 100%;
+  }
+  header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+  }
+  header, p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .yellow {
+    color: yellow;
+  }
+  .email-signup {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #540b51;
+  }
+  .google-signup {
+    margin-top: 5%;
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #4285f4;
+    text-align: center;
+  }
+
+  .google-signup span {
+    text-align: center;
+  }
+
+  .screenshot img{
+    width: 100%;
+    height: 75%;
+    margin-top: 10%;
+  }
+  .ad {
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin-top: 10%;
+  }
+
+  .ad p{
+    color: black;
+  }
+  .corps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 1% 5%;
+    align-items: center;
+
+  }
+  .corps img{
+    width:  50%;
+    margin: 5%;
+    align-items: center;
+  }
+
+
+  .teamwork {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+  .teamwork img{
+    display: grid;
+    width: 95%;
+    height: 600px;
+    padding-bottom: 5%;
+  }
+
+  .teamwork h2{
+    margin: 0 25%;
+    text-align: left;
+    font-size: 350%;
+    font-weight: 800;
+  }
+  .teamwork p{
+    margin: 0 25%;
+    text-align: left;
+    color: black;
+    font-size: 150%;
+  }
+  
+  .teamwork a{
+    display: flex;
+    margin: 3% 25%;
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+    font-size: 110%;
+    font-weight: 800;
+  }
+
+  .teamworkright {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: antiquewhite;
+  }
+
+  .teamworkright img{
+    width: 100%;
+    float: right;
+  }
+
+  .teamworkright h2{
+    display: flex;
+    margin: 3% 25%;
+    font-size: 350%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+
+  }
+
+  .teamworkright p{
+    display: flex;
+    margin: 3% 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 150%;
+    color: black;
+  }
+  
+  .teamworkright a{
+    margin: 3% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: blue;
+  }
+  .usage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    padding-top: 10%;
+    background-color: white;
+  }
+  .usage h3{
+    font-size: 200%;
+    margin: 0 5%;
+  }
+
+  .usage p{
+    margin: 0 5%;
+  }
+
+  .purple-button {
+    background-color: #540b51;
+    color: white;
+    border: white solid 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 600px;
+    height: 50px;
+    margin: 3% 1%;
+  }
+
+  .white-button {
+    background-color: white;
+    color: #540b51;
+    border: #540b51 solid 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+    margin: 3%;
+  }
+  .decision {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .usage ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0 5%;
+  }
+
+  .percentage {
+    margin-top: 5%;
+    font-size: 65px;
+    color: #540b51;
+    font-weight: 900;
+  }
+
+  .listp {
+    text-align: center;
+  }
+
+  .freeOrSales {
+    background-color: #540b51;
+    padding-top: 10px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .freeOrSales h3{
+    font-size: 250%;
+    margin: 0% 10%;
+    color: white;
+  }
+
+  .freeOrSales button {
+    width: 350px;
+    height: 50px;
+    margin: 3%;
+  }
+
+  footer {
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .slack-icon2 {
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+  }
+
+  .footerlist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: black;
+  }
+
+  .footerlist ul{
+    list-style: none;
+    display: inline;
+    color: black;
+    font-weight: 400;
+  }
+  .footerlist li {
+    margin-top: 10%;
+  }
+
+  .top-list {
+    font-weight: bold;
+  }
+
+  footer hr{
+    width: 90%;
+  }
+  
+  .legalstuff {
+    width: 100%;
+  }
+
+  .legalstuff ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 8%;
+    list-style: none;
+    width: 100%;
+    color: black;
+    font-weight: 400;
+  }
+
+  .legalstuff li{
+    display: inline;
+    font-weight: bold;
+  }
+
+  
+  .social-media-icons {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+  }
+
+  .social-media-icons li{
+    list-style: none;
+    margin-left: 12%;
+    color: black;
+  }
+
+  .fineprint {
+    margin: 12%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  nav {
+    display: flex;
+    align-items: center;
+    margin: 1% 1%;
+  }
+
+  .logo-list {
+    margin-left: 10%;
+    gap:  10%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul, a{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  li{
+    margin-right: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .logo img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .entry {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+    width: 100%;
+  }
+  header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+  }
+  header, p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .yellow {
+    color: yellow;
+  }
+  .email-signup {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #540b51;
+  }
+  .google-signup {
+    margin-top: 5%;
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #4285f4;
+    text-align: center;
+  }
+
+  .google-signup span {
+    text-align: center;
+  }
+
+  .screenshot img{
+    width: 100%;
+    height: 75%;
+    margin-top: 10%;
+  }
+  .ad {
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin-top: 10%;
+  }
+
+  .ad p{
+    color: black;
+  }
+  .corps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 1% 5%;
+    align-items: center;
+
+  }
+  .corps img{
+    width:  50%;
+    margin: 5%;
+    align-items: center;
+  }
+
+
+  .teamwork {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+  .teamwork img{
+    display: grid;
+    width: 95%;
+    height: 600px;
+    padding-bottom: 5%;
+  }
+
+  .teamwork h2{
+    margin: 0 25%;
+    text-align: left;
+    font-size: 350%;
+    font-weight: 800;
+  }
+  .teamwork p{
+    margin: 0 25%;
+    text-align: left;
+    color: black;
+    font-size: 150%;
+  }
+  
+  .teamwork a{
+    display: flex;
+    margin: 3% 25%;
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+    font-size: 110%;
+    font-weight: 800;
+  }
+
+  .teamworkright {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: antiquewhite;
+  }
+
+  .teamworkright img{
+    width: 100%;
+    float: right;
+  }
+
+  .teamworkright h2{
+    display: flex;
+    margin: 3% 25%;
+    font-size: 350%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+
+  }
+
+  .teamworkright p{
+    display: flex;
+    margin: 3% 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 150%;
+    color: black;
+  }
+  
+  .teamworkright a{
+    margin: 3% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: blue;
+  }
+  .usage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    padding-top: 10%;
+    background-color: white;
+  }
+  .usage h3{
+    font-size: 200%;
+    margin: 0 5%;
+  }
+
+  .usage p{
+    margin: 0 5%;
+  }
+
+  .purple-button {
+    background-color: #540b51;
+    color: white;
+    border: white solid 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 600px;
+    height: 50px;
+    margin: 3% 1%;
+  }
+
+  .white-button {
+    background-color: white;
+    color: #540b51;
+    border: #540b51 solid 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+    margin: 3%;
+  }
+  .decision {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .usage ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0 5%;
+  }
+
+  .percentage {
+    margin-top: 5%;
+    font-size: 65px;
+    color: #540b51;
+    font-weight: 900;
+  }
+
+  .listp {
+    text-align: center;
+  }
+
+  .freeOrSales {
+    background-color: #540b51;
+    padding-top: 10px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .freeOrSales h3{
+    font-size: 250%;
+    margin: 0% 10%;
+    color: white;
+  }
+
+  .freeOrSales button {
+    width: 350px;
+    height: 50px;
+    margin: 3%;
+  }
+
+  footer {
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .slack-icon2 {
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+  }
+
+  .footerlist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: black;
+  }
+
+  .footerlist ul{
+    list-style: none;
+    display: inline;
+    color: black;
+    font-weight: 400;
+  }
+  .footerlist li {
+    margin-top: 10%;
+  }
+
+  .top-list {
+    font-weight: bold;
+  }
+
+  footer hr{
+    width: 90%;
+  }
+  
+  .legalstuff {
+    width: 100%;
+  }
+
+  .legalstuff ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 8%;
+    list-style: none;
+    width: 100%;
+    color: black;
+    font-weight: 400;
+  }
+
+  .legalstuff li{
+    display: inline;
+    font-weight: bold;
+  }
+
+  
+  .social-media-icons {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+  }
+
+  .social-media-icons li{
+    list-style: none;
+    margin-left: 12%;
+    color: black;
+  }
+
+  .fineprint {
+    margin: 12%;
+    text-align: left;
+  }
+}
